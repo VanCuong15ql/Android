@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <solid android:color="#60161816"/>
+
+    <!-- Thiết lập viền cho button -->
+    <stroke
+        android:width="2dp"
+        android:color="#808080"/>           <!-- Độ dày của viền -->/>         <!-- Màu xám cho viền (#808080) -->
+
+    <!-- Các góc bo tròn -->
+    <corners android:radius="16dp" />      <!-- Bo tròn góc với bán kính 16dp -->
+</shape>

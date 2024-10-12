@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="feature_button">#50161816</color>
+    <color name="number_button">#40161816</color>
+    <color name="calculator_button">#ff141313</color>
+</resources>
