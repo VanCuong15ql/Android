@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="currency">
+        <item>VietNam-dong</item>
+        <item>USA-dola</item>
+        <item>China-NNT</item>
+    </string-array>
+
+</resources>
