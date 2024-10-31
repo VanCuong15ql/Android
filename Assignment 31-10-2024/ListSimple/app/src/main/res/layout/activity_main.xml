@@ -1,22 +1,21 @@
-<!-- res/layout/activity_main.xml -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp">
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập số nguyên dương n"
+        android:hint="Nhập số nguyên dương"
         android:inputType="number" />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioEven"
@@ -44,14 +43,14 @@
         android:text="Show" />
 
     <ListView
-        android:id="@+id/listViewNumbers"
+        android:id="@+id/listViewResult"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/textViewError"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/holo_red_light" />
+        android:textColor="#FF0000" />
+
 </LinearLayout>

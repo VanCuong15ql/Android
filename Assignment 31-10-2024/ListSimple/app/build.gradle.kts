@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
-    compileSdk = 34
+    namespace = "com.example.listsimple"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.listsimple"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
